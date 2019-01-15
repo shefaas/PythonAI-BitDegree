@@ -12,8 +12,18 @@ number3 = number1 + number2
 
 print("The result is: ",number3," ?")
 
+
+
+# String Lesson
+
+
 myName = "Shefaa"
 shefaaInCapital = myName.capitalize()
 shefaaCentered = (' '+myName+' ').center(20,'.')
+
 saadCentered = " Saad ".center(20,'.')
 print(shefaaCentered+"\n"+saadCentered)
+
+
+checkTitleCase = (myName+" Saad").istitle()
+print(checkTitleCase)
