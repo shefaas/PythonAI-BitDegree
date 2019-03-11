@@ -6,10 +6,10 @@ Python Image Recognition: Hands-On Artificial Intelligence Course
 https://www.bitdegree.org/user/course/python-image-recognition
 
 # Python Version, IDE, and Modules
-*Python: 3.6
-*PyCharm IDE
-*TensorFlow
-*PIL
+* Python: 3.6
+* PyCharm IDE
+* TensorFlow
+* PIL
 
 # Dataset
 CIFAR 10 Dataset
