@@ -19,7 +19,6 @@ cat_image_path = 'C:\\Users\\Shefaa\\Desktop\\PythonAI-BitDegree\\ImageRecogniti
 cat_image = Image.open(cat_image_path)
 #cat_image.show()
 
-
 label = ['airplane', 'automobile', 'bird', 'cat', 'deer', 'dog', 'frog', 'horse', 'ship', 'truck']
 
 
@@ -92,7 +91,7 @@ optimizer = SGD(lr=0.01)
 model.compile(loss='categorical_crossentropy', optimizer=optimizer, metrics=['accuracy'])
 
 # Fitting/Building the model
-model.fit(new_X_train, new_y_train, batch_size=32, epochs=1)
+model.fit(new_X_train, new_y_train, batch_size=32, epochs=10)
 
 # Saving the model in h5 file type
-model.save('trained_model.h5')
+model.save('trained_model_epo10.h5')

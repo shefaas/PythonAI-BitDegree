@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="BookmarkManager">
-    <bookmark url="file://$PROJECT_DIR$/ImageRecognition/ImageRecognitionTrainer.py" line="74" mnemonic="8" />
+    <bookmark url="file://$PROJECT_DIR$/ImageRecognition/ImageRecognitionTrainer.py" line="76" mnemonic="8" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="1e012d43-8e20-4a30-85c6-d76f5fcf73ac" name="Default" comment="Project re-structuring and README file updating">
+    <list default="true" id="1e012d43-8e20-4a30-85c6-d76f5fcf73ac" name="Default" comment="NN Recognition Model Built">
+      <change afterPath="$PROJECT_DIR$/ImageRecognition/cat.jpg" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/ImageRecognition/ImageRecognitionTrainer.py" beforeDir="false" afterPath="$PROJECT_DIR$/ImageRecognition/ImageRecognitionTrainer.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/README.md" beforeDir="false" afterPath="$PROJECT_DIR$/README.md" afterDir="false" />
@@ -53,13 +54,25 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/ImageRecognition/ImageRecognitionTrainer.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="535">
-              <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+            <state relative-caret-position="144">
+              <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
               <folding>
                 <element signature="e#1#22#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/ImageRecognition/ImageRecognitionTester.py">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="408">
+              <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+              <folding>
+                <element signature="e#0#21#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -69,8 +82,8 @@
         <entry file="file://$PROJECT_DIR$/README.md">
           <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
             <state split_layout="SPLIT">
-              <first_editor relative-caret-position="204">
-                <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+              <first_editor relative-caret-position="272">
+                <caret line="29" selection-start-line="29" selection-end-line="29" />
               </first_editor>
               <second_editor />
             </state>
@@ -128,6 +141,7 @@
         <option value="$PROJECT_DIR$/PythonGettingStarted/Functions.py" />
         <option value="$PROJECT_DIR$/README.md" />
         <option value="$PROJECT_DIR$/ImageRecognition/ImageRecognitionTrainer.py" />
+        <option value="$PROJECT_DIR$/ImageRecognition/ImageRecognitionTester.py" />
       </list>
     </option>
   </component>
@@ -197,7 +211,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Python.Functions">
+  <component name="RunManager" selected="Python.ImageRecognitionTester">
     <configuration name="Functions" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonAI-BitDegree" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -211,6 +225,27 @@
       <option name="ADD_CONTENT_ROOTS" value="true" />
       <option name="ADD_SOURCE_ROOTS" value="true" />
       <option name="SCRIPT_NAME" value="$PROJECT_DIR$/PythonGettingStarted/Functions.py" />
+      <option name="PARAMETERS" value="" />
+      <option name="SHOW_COMMAND_LINE" value="false" />
+      <option name="EMULATE_TERMINAL" value="false" />
+      <option name="MODULE_MODE" value="false" />
+      <option name="REDIRECT_INPUT" value="false" />
+      <option name="INPUT_FILE" value="" />
+      <method v="2" />
+    </configuration>
+    <configuration name="ImageRecognitionTester" type="PythonConfigurationType" factoryName="Python" temporary="true">
+      <module name="PythonAI-BitDegree" />
+      <option name="INTERPRETER_OPTIONS" value="" />
+      <option name="PARENT_ENVS" value="true" />
+      <envs>
+        <env name="PYTHONUNBUFFERED" value="1" />
+      </envs>
+      <option name="SDK_HOME" value="" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$/ImageRecognition" />
+      <option name="IS_MODULE_SDK" value="true" />
+      <option name="ADD_CONTENT_ROOTS" value="true" />
+      <option name="ADD_SOURCE_ROOTS" value="true" />
+      <option name="SCRIPT_NAME" value="$PROJECT_DIR$/ImageRecognition/ImageRecognitionTester.py" />
       <option name="PARAMETERS" value="" />
       <option name="SHOW_COMMAND_LINE" value="false" />
       <option name="EMULATE_TERMINAL" value="false" />
@@ -261,27 +296,6 @@
       <option name="INPUT_FILE" value="" />
       <method v="2" />
     </configuration>
-    <configuration name="MultiValueVariables" type="PythonConfigurationType" factoryName="Python" temporary="true">
-      <module name="PythonAI-BitDegree" />
-      <option name="INTERPRETER_OPTIONS" value="" />
-      <option name="PARENT_ENVS" value="true" />
-      <envs>
-        <env name="PYTHONUNBUFFERED" value="1" />
-      </envs>
-      <option name="SDK_HOME" value="" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <option name="IS_MODULE_SDK" value="true" />
-      <option name="ADD_CONTENT_ROOTS" value="true" />
-      <option name="ADD_SOURCE_ROOTS" value="true" />
-      <option name="SCRIPT_NAME" value="C:\Users\Shefaa\Desktop\PythonAI-BitDegree\PythonGettingStarted\MultiValueVariables.py" />
-      <option name="PARAMETERS" value="" />
-      <option name="SHOW_COMMAND_LINE" value="false" />
-      <option name="EMULATE_TERMINAL" value="false" />
-      <option name="MODULE_MODE" value="false" />
-      <option name="REDIRECT_INPUT" value="false" />
-      <option name="INPUT_FILE" value="" />
-      <method v="2" />
-    </configuration>
     <configuration name="TensorFlow" type="PythonConfigurationType" factoryName="Python" temporary="true">
       <module name="PythonAI-BitDegree" />
       <option name="INTERPRETER_OPTIONS" value="" />
@@ -304,19 +318,19 @@
       <method v="2" />
     </configuration>
     <list>
-      <item itemvalue="Python.MultiValueVariables" />
       <item itemvalue="Python.TensorFlow" />
       <item itemvalue="Python.LinearRegressionModel" />
       <item itemvalue="Python.ImageRecognitionTrainer" />
       <item itemvalue="Python.Functions" />
+      <item itemvalue="Python.ImageRecognitionTester" />
     </list>
     <recent_temporary>
       <list>
-        <item itemvalue="Python.Functions" />
+        <item itemvalue="Python.ImageRecognitionTester" />
         <item itemvalue="Python.ImageRecognitionTrainer" />
+        <item itemvalue="Python.Functions" />
         <item itemvalue="Python.LinearRegressionModel" />
         <item itemvalue="Python.TensorFlow" />
-        <item itemvalue="Python.MultiValueVariables" />
       </list>
     </recent_temporary>
   </component>
@@ -352,7 +366,14 @@
       <option name="project" value="LOCAL" />
       <updated>1552078331897</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="NN Recognition Model Built">
+      <created>1552583474692</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1552583474693</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TodoView">
@@ -366,13 +387,12 @@
   </component>
   <component name="ToolWindowManager">
     <frame x="-8" y="-8" width="1382" height="784" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.06656581" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.17927383" />
       <window_info id="Structure" order="1" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
-      <window_info anchor="bottom" id="Event Log" order="0" side_tool="true" />
-      <window_info anchor="bottom" id="Version Control" order="1" weight="0.32718894" />
+      <window_info anchor="bottom" id="Event Log" order="0" sideWeight="0.50075644" side_tool="true" weight="0.32718894" />
+      <window_info anchor="bottom" id="Version Control" order="1" sideWeight="0.49924356" weight="0.32718894" />
       <window_info anchor="bottom" id="Message" order="2" />
       <window_info anchor="bottom" id="Find" order="3" />
       <window_info anchor="bottom" id="Debug" order="4" weight="0.4" />
@@ -382,7 +402,7 @@
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
       <window_info anchor="right" id="Python Console" order="3" weight="0.36535552" />
-      <window_info anchor="right" id="Run" order="4" visible="true" weight="0.20801815" />
+      <window_info active="true" anchor="right" id="Run" order="4" visible="true" weight="0.44704992" />
       <window_info anchor="right" id="TODO" order="5" weight="0.32980332" />
       <window_info anchor="right" id="Terminal" order="6" weight="0.12178517" />
     </layout>
@@ -431,7 +451,8 @@
     <MESSAGE value="String lesson added" />
     <MESSAGE value="TensorFlow Model Added (Linear Regression Model)" />
     <MESSAGE value="Project re-structuring and README file updating" />
-    <option name="LAST_COMMIT_MESSAGE" value="Project re-structuring and README file updating" />
+    <MESSAGE value="NN Recognition Model Built" />
+    <option name="LAST_COMMIT_MESSAGE" value="NN Recognition Model Built" />
   </component>
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/PythonGettingStarted/FirstFile.py">
@@ -493,8 +514,8 @@
     <entry file="file://$PROJECT_DIR$/README.md">
       <provider selected="true" editor-type-id="split-provider[text-editor;markdown-preview-editor]">
         <state split_layout="SPLIT">
-          <first_editor relative-caret-position="204">
-            <caret line="12" column="22" lean-forward="true" selection-start-line="12" selection-start-column="22" selection-end-line="12" selection-end-column="22" />
+          <first_editor relative-caret-position="272">
+            <caret line="29" selection-start-line="29" selection-end-line="29" />
           </first_editor>
           <second_editor />
         </state>
@@ -502,10 +523,20 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/ImageRecognition/ImageRecognitionTrainer.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="535">
-          <caret line="93" lean-forward="true" selection-start-line="93" selection-end-line="93" />
+        <state relative-caret-position="144">
+          <caret line="22" lean-forward="true" selection-start-line="22" selection-end-line="22" />
           <folding>
             <element signature="e#1#22#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ImageRecognition/ImageRecognitionTester.py">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="408">
+          <caret line="24" column="32" lean-forward="true" selection-start-line="24" selection-start-column="32" selection-end-line="24" selection-end-column="32" />
+          <folding>
+            <element signature="e#0#21#0" expanded="true" />
           </folding>
         </state>
       </provider>
